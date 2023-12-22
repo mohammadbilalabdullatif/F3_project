@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.navbar1{
+    background:#590d22;
+}
+
+.nav-bar a{
+    color: black;
+}
+
+.navbar{
+    background-color: #f6e8ea;
+    color: black ;
+}
+.dropdown-menu{
+    background-color: #d9b6b6;
+    border: none;
+    outline: none;
+}
+
+
+
+.dropdown-menu a{
+    border: none;
+    outline: none;
+    background: #d9b6b6;
+    padding: 5px 8px 5px 8px;
+}
+
+.dropdown-menu a:hover{
+    border: none;
+    outline: none;
+    padding: 5px 8px 5px 8px;
+    border-radius: 40px;
+    background:#f6e8ea ;
+}
+
+
+.navbar .logo{
+    width: 90px;
+    
+}
+
+.navbar-info{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 30px;
+}
+
+
+
+
+.div-1 .navbar-nav{
+    padding-left: 10px;
+}
+
+.div-1 .nav-head{
+    padding: 5px 30px 5px 30px;
+    
+    border-radius:60px ;
+    border: none;
+    /* padding-left: 70px; */
+    text-decoration: none;
+    float: right;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.div-1 .nav-head:hover{
+    padding: 5px 30px 5px 30px;
+
+    border-radius:70px ;
+    background: #d3a99e;
+    text-decoration: none;
+    color: #1f1e1e;
+    font-size: 21px;
+    font-weight: 600;
+    text-shadow: 0 10px 10px black;
+}
+
+
+.navbar-navbar li {
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.navbar-navbar li:hover{
+    padding-left: 22px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team{
+ margin-top: 70px;
+}
+
+
+.team .member{
+    position: relative;
+    padding: 30px;
+    box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    background: #fff;
+}
+
+.team .member .teampic{
+    overflow: hidden;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.teampic img{
+    width: 180px;
+    height: 180px;
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+.team .member .member-info{
+    padding-left: 30px;
+}
+
+.team .member h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 30px;
+    color: rgb(197, 92, 92);
+}
+
+.team .member span{
+    display: block;
+    font-size: 17px;
+    padding-bottom:10px;
+    position: relative;
+    font-weight: 500;
+}
+
+.team .member span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: black;
+    bottom: 0;
+    left: 0;
+}
+
+.team .member p{
+    margin: 10px 0 0 0;
+    font-size: 18px;
+}
+
+.team .member .social{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   
+}
+
+.team .member .social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+}
+
+.team .member .social a i{ 
+    color: rgb(197, 92, 92);
+    font-size: 16px;
+    margin: 0 2px;
+}
+
+.team .member .social a:hover{
+    background: rgb(197, 92, 92);
+
+} 
+
+.team .member .social a:hover i{
+    background: white;
+} 
+
+.team .member .social a+a{
+    margin-left: 8px;
+}
+
+section{
+    padding-bottom: 60px ;
+    overflow: hidden;
+}
+
+.section-title{
+    text-align: center;
+    padding-bottom: 30px ;
+}
+
+.underline{
+    width: 150px;
+    height: 1px;
+    background-color: black;
+    margin:auto;
+    margin-top: 5px;
+}
+
+.section-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+    position: relative;
+    color: rgb(197, 92, 92);
+}
+
+.section-title p{
+    margin-top: 20px;
+}
+
+
+
+
+/* FOOTER */
+
+footer{
+    background: #a68d8d;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.footer{
+    margin: 0 40px 0 40px ;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 33px;
+    font-weight: 500;
+}
+
+.footer .h2-p{
+    padding-top: 7px;
+    font-size: 22px;
+    text-align:center;
+}
+
+.footer h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer p{
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer ul{
+    padding-top: 10px
+}
+
+.footer ul li{
+    text-align: center;
+    list-style: none;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.footer a:hover{
+    padding: 3px 10px 3px 10px;
+    font-size: 20px;
+    border-radius: 40px;
+    color: black;
+    border: none;
+    outline: none;
+    background-color:#d9b6b6 ;
+}
+
+
+.footer input{
+    margin: 30px 0px 0 50px;
+    padding: 8px 30px 8px 30px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    font-size: 15px;
+    color: gray;
+    background-color: white;
+    border: none;
+}
+
+.footer .btn1{
+    margin: 30px 0 0 0;
+    padding: 8px 10px 8px 10px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    font-size: 15px;
+    color:black;
+    background-color: #deb8af;
+    border: none;
+}
+.footer .btn1:hover{
+    color:black;
+    background-color: #d1a5a5;
+}
+
+
+.footer .social{
+    margin: 12px 0 0 75px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+}
+
+ .social a i{ 
+    color:black;
+    font-size: 20px;
+    margin: 0 2px;
+}
+
+.social a:hover{
+    width: 37px;
+    height: 37px;
+} 
+
+.social a:hover i{
+    font-size: 23px;
+    margin: 0 4px;
+
+} 
+
+.social a+a{
+    margin-left: 8px;
+}
+
+.footer-end{
+    background-color: #776d6d;
+}
+.footer-end p{
+    text-align: center;
+    font-size:20px ;
+}
+
+
